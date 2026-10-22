@@ -1,0 +1,47 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Pumpkin p1; 
+		Pumpkin p2 = new Pumpkin();
+		Pumpkin p3 = new Pumpkin();
+		
+		
+		// this calls default constructor (no parameter)
+		Ghost Casper = new Ghost();
+		
+		Ghost ghost2 = new Ghost("Bily");
+		
+		Ghost ghost3= new Ghost("Iyan", "Westview Boy's Bathroom");		
+		
+		
+		
+		// implicit call to toString
+		// if you try to print a Ghost object - it is called 
+		//automagically
+		System.out.println(Casper);    //<------ implicit - done by computer
+		System.out.println(Casper.toString()); //<---- explicit - you LITERALLY called toString
+		System.out.println(ghost2);
+		System.out.println(ghost3);
+		
+		
+		
+		// you can call public methods in an object sing the dot operator
+		Casper.haunt();
+		
+		
+		
+		
+		
+		BlackCat Midnight = new BlackCat();
+		Midnight.response();
+		
+		Bat meeple = new Bat();
+		
+		
+		
+	}
+
+}
